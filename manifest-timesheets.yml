@@ -4,7 +4,7 @@ applications:
   routes:
   - route: timesheets-pal-ws.api.sys.evans.pal.pivotal.io
   memory: 1G
-  instances: 1
+  instances:  1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://timesheets-pal-ws.api.sys.evans.pal.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
